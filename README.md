@@ -14,3 +14,7 @@ The main tasks involved in this project are as follows:
 - Train the Generative Adversarial Network by iteratively updating the discriminator and generator networks to improve the quality of generated digits.
 
   ![image](https://github.com/jose-zerna/Handwritten-Digit-Generation-with-Deep-Generative-Adversarial-Network/assets/92068963/d33c5607-6902-4181-bf82-4dabed68165b)
+
+
+## Bugs and errors obtained during this project:
+- **# images, _ = dataiter._next_()** This syntax produced an error due to old Torch version syntax. I used *images, _ = next(dataiter)* instead.
